@@ -14,6 +14,7 @@ Requirements:
 
 - Python 3.7
 - Google Cloud Engine account
+- [Google Cloud SDK](https://cloud.google.com/sdk/install)
 
 ```bash
 git clone git@github.com:curiousily/End-to-End-Machine-Learning-with-Keras.git
