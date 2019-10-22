@@ -11,5 +11,7 @@ data = {
     "availability_365": 365
 }
 
-r = requests.post("http://localhost:5000", json=data)
+TEST_URL = "http://localhost:5000"
+
+r = requests.post(TEST_URL, json=data)
 print(r.json())

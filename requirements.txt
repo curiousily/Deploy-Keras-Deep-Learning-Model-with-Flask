@@ -3,3 +3,4 @@ gunicorn==19.9.0
 joblib==0.14.0
 pandas==0.25.2
 tensorflow==2.0.0b1
+scikit-learn==0.21.3

@@ -1,3 +1,5 @@
+from math import expm1
+
 import joblib
 import pandas as pd
 from flask import Flask, jsonify, request
@@ -13,5 +15,5 @@ def index():
     data = request.json
     df = pd.DataFrame(data, index=[0])
     prediction = model.predict(transformer.transform(df))
-    predicted_price = prediction.flatten()[0]
+    predicted_price = expm1(prediction.flatten()[0])
     return jsonify({"price": str(predicted_price)})
