@@ -16,12 +16,14 @@ Requirements:
 - Google Cloud Engine account
 - [Google Cloud SDK](https://cloud.google.com/sdk/install)
 
+Clone this repository:
+
 ```bash
 git clone git@github.com:curiousily/End-to-End-Machine-Learning-with-Keras.git
 cd End-to-End-Machine-Learning-with-Keras
 ```
 
-Install requirements:
+Install libraries:
 
 ```bash
 pip install -r requirements.txt
