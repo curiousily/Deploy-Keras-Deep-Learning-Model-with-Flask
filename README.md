@@ -8,6 +8,24 @@ This guide shows you how to:
 - build a REST API that predicts prices based on the model (using Flask and gunicorn)
 - deploy the model to production on Google App Engine
 
+# Quick start
+
+Requirements:
+
+- Python 3.7
+- Google Cloud Engine account
+
+```bash
+git clone git@github.com:curiousily/End-to-End-Machine-Learning-with-Keras.git
+cd End-to-End-Machine-Learning-with-Keras
+```
+
+Install requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Start local server
 
 ```bash
