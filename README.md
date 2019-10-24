@@ -2,6 +2,8 @@
 
 > It is not recommended to deploy your production models as shown here. This is just an end-to-end example to get started quickly.
 
+[Read the complete guide](https://www.curiousily.com/posts/deploy-keras-deep-learning-project-to-production-with-flask/)
+
 This guide shows you how to:
 
 - build a Deep Neural Network that predicts Airbnb prices in NYC (using scikit-learn and Keras)
@@ -46,3 +48,5 @@ curl -d '{"neighbourhood_group": "Brooklyn", "latitude": 40.64749, "longitude": 
 ```bash
 gcloud app deploy
 ```
+
+[Read the complete guide](https://www.curiousily.com/posts/deploy-keras-deep-learning-project-to-production-with-flask/)
